@@ -1,0 +1,6 @@
+{
+  "name": "Geri Care Diwali Greeting Card Generator",
+  "description": "Premium Diwali Greeting Card Generator for Geri Care employees with live preview, high-resolution 1080x1350 PNG export, and 5 festive creatives.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

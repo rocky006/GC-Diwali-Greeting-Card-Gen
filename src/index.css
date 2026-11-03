@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-gericare: #7D1848;
+  --color-gericare-dark: #631238;
+  --color-gericare-light: #9B245C;
+  --color-gericare-subtle: #FBF0F5;
+  --color-gericare-gold: #D4AF37;
+  --color-gericare-gold-light: #FDF8EC;
+  --color-gericare-green: #148858;
+}
+
+body {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #FAF7F5;
+  color: #1F2937;
+}
+
+/* Custom scrollbars for clean desktop aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede8;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4c5ce;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7D1848;
+}
